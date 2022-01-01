@@ -2,7 +2,9 @@
 
 [Krona can be conda installed](https://anaconda.org/bioconda/krona ).
 
-Prior to installation create a conda env for krona in command line by `conda create --name myenv`, then source activate by `source activate myenv` prior to conda installation.
+Prior to installation create a conda env for krona if you don't have a designated environment for metagenome tools in command line by `conda create --name myenv`, then source activate by `source activate myenv` prior to conda installation.
+
+tip- if you want to rename your conda env., you can't. You need to create a new environment and clone the old environment to it, then delete the old one: `conda create --name new_name --clone old_name` `conda remove --name old_name --all`
 
 Once Krona is conda installed, manually update the taxonomy databases before Krona can generate taxonomic reports by `ktUpdateTaxonomy.sh`
 
