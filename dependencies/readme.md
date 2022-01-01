@@ -12,7 +12,7 @@ The default location for storing the taxonomic databases is `../myenv/opt/krona/
 
 ## bbtools
 
-[bbtools](https://jgi.doe.gov/data-and-tools/bbtools/)is a package created and maintained by the Joint Genome Institute
+[bbtools](https://jgi.doe.gov/data-and-tools/bbtools/) is a package created and maintained by the Joint Genome Institute
 
 bbtools can be [conda installed](https://anaconda.org/agbiome/bbtools) on Linux or [Homebrew installed](https://formulae.brew.sh/formula/bbtools)
 on Mac OS X
