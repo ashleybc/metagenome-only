@@ -1,4 +1,4 @@
-##Krona
+## Krona
 
 [Krona can be conda installed](https://anaconda.org/bioconda/krona ).
 
@@ -8,7 +8,7 @@ Once Krona is conda installed, manually update the taxonomy databases before Kro
 
 The default location for storing the taxonomic databases is `../myenv/opt/krona/taxonomy`
 
-##bbtools
+## bbtools
 
 [bbtools is a package created and maintained by the Joint Genome Institute](https://jgi.doe.gov/data-and-tools/bbtools/)
 
