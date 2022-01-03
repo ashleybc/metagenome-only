@@ -25,4 +25,4 @@ on Mac OS X
 
 Once source code is extracted, move to the Kraken2 directory and run `./install_kraken2.sh ./`
 
-After running installation code, be sure to set PATH- `export PATH=$PATH:pwd`
+After running installation code, be sure to set PATH- ``export PATH=$PATH:`pwd` ``
