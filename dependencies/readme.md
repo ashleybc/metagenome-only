@@ -20,3 +20,5 @@ on Mac OS X
 ## Kraken2
 
 [Kraken2](github.com/DerrickWood/kraken2/archive/v2.0.9-beta.tar.gz) can be installed from tarball
+
+Once source code is extracted, move to the Kraken2 directory and run `./install_kraken2.sh ./`
