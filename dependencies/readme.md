@@ -1,3 +1,5 @@
+# Clean up and taxonomic classification
+
 ## Krona
 
 [Krona can be conda installed](https://anaconda.org/bioconda/krona ).
@@ -22,3 +24,5 @@ on Mac OS X
 [Kraken2](github.com/DerrickWood/kraken2/archive/v2.0.9-beta.tar.gz) can be installed from tarball
 
 Once source code is extracted, move to the Kraken2 directory and run `./install_kraken2.sh ./`
+
+After running installation code, be sure to set PATH- `export PATH=$PATH:`pwd``
