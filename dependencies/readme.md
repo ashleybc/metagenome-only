@@ -27,6 +27,8 @@ Once source code is extracted, move to the Kraken2 directory and run `./install_
 
 After running installation code, be sure to set PATH- ``export PATH=$PATH:`pwd` ``
 
+Once installation is complete and export PATH is set, the database the user intends to use needs to be built using the command `kraken2-build` . The default/standard gene and protein database is built by `kraken2-build --standard --threads 4 --db standard` . Special databases require `kraken2-build --db mydatabase --special mydatabase` . Once the database is built, add the database to a kraken2 database path: `` export KRAKEN2_DB_PATH=`pwd` ``
+
 ### Specific to Mac OS X
 
 Before running `./install_kraken2.sh ./` , you will need to install a different compiler, or running the installation script will result in a clang error, as  Apple Clang does not support OpenMP by default. This can be done by first running `brew install gcc` to install a GNU compiler. Then, move into the `src` folder of the kraken directory, and enter `vim Makefile` to edit the Makefile.  Modify `g++` to `g++-11`
