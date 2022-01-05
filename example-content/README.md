@@ -4,4 +4,4 @@ Arctic Ocean metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arct
 
 Can be found at: https://www.ebi.ac.uk/ena/browser/view/PRJEB14154?show=reads
 
-In example code, have used the first ten pairs of Generated FASTQ files
+In example code, have used the first 5 pairs of Generated FASTQ files
