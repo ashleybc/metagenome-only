@@ -26,3 +26,7 @@ on Mac OS X
 Once source code is extracted, move to the Kraken2 directory and run `./install_kraken2.sh ./`
 
 After running installation code, be sure to set PATH- ``export PATH=$PATH:`pwd` ``
+
+### Specific to Mac OS X
+
+Before running `./install_kraken2.sh ./` , you will need to install a different compiler, or running the installation script will result in a clang error. This can be done by first running `brew install gcc` . Then, move into the `src` folder of the kraken directory, and enter `vim Makefile` and modify `g++` to `g++-11`
