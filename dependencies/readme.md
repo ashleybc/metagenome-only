@@ -32,3 +32,7 @@ Once installation is complete and export PATH is set, the database the user inte
 ### Specific to Mac OS X
 
 Before running `./install_kraken2.sh ./` , you will need to install a different compiler, or running the installation script will result in a clang error, as  Apple Clang does not support OpenMP by default. This can be done by first running `brew install gcc` to install a GNU compiler. Then, move into the `src` folder of the kraken directory, and enter `vim Makefile` to edit the Makefile.  Modify `g++` to `g++-11`
+
+## trimmomatic
+
+[trimmomatic](https://anaconda.org/bioconda/trimmomatic) can be conda installed on all OS.
