@@ -35,4 +35,4 @@ Before running `./install_kraken2.sh ./` , you will need to install a different 
 
 ## trimmomatic
 
-[trimmomatic](https://anaconda.org/bioconda/trimmomatic) can be conda installed on all OS.
+[trimmomatic](https://anaconda.org/bioconda/trimmomatic) can be conda installed on all OS. For usage instructions, see the [online manual](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf)
