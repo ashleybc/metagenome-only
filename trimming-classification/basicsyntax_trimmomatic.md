@@ -1,6 +1,6 @@
 ## General format for trimmomatic
 
-### trim paired-end reads by resulting read length:
+### trim paired-end reads by resulting read length
 
 `forward_read.fastq.gz reverse_read.fastq.gz cropped_forward_read_paired.fastq cropped_forward_read_unpaired.fastq cropped_reverse_read_paired.fastq cropped_reverse_read_unpaired.fastq CROP:275 MINLEN:175`
 
