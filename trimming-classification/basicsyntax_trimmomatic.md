@@ -1,4 +1,4 @@
-## General format for trimmomatic
+## General format for command-line trimmomatic
 
 ### trim paired-end reads by resulting read length
 
