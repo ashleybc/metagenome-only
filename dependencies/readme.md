@@ -14,7 +14,7 @@ The default location for storing the taxonomic databases is `../myenv/opt/krona/
 
 ## bbtools
 
-[bbtools](https://jgi.doe.gov/data-and-tools/bbtools/) is a package created and maintained by the Joint Genome Institute
+[bbtools](https://jgi.doe.gov/data-and-tools/bbtools/) is a package created and maintained by the Joint Genome Institute that consistents of tools for trimming, MinHash, and much more!
 
 bbtools can be [conda installed](https://anaconda.org/agbiome/bbtools) on Linux or [Homebrew installed](https://formulae.brew.sh/formula/bbtools)
 on Mac OS X
@@ -38,4 +38,4 @@ Before running `./install_kraken2.sh ./` , you will need to install a different 
 [trimmomatic](https://anaconda.org/bioconda/trimmomatic) can be conda installed on all OS. For usage instructions, see the [online manual](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf). This tool is more suitable than bbduk if, for example, you want to trim to an exact length or using a sliding window based on Fast or Multi QC data and therefore require more control over the trimming. This can be used instead of bbduk in the example workflow, followed by Kraken2 classification and Krona visualization.
 
 ## sourmash (MinHash)
-Implements bloom filter and scalable-s. More info can be found [here](https://sourmash.readthedocs.io)
+Implements bloom filter and scalable-s. More info about the tool can be found [here](https://sourmash.readthedocs.io). Sourmash can be [conda installed](https://anaconda.org/bioconda/sourmash). Note that if you already have bbtools, there are similar tools (sketchmaker, comparesketch, sendsketch). 
