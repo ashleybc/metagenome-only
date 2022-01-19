@@ -39,5 +39,5 @@ Before running `./install_kraken2.sh ./` , you will need to install a different 
 
 ## sourmash (MinHash)
 Implements bloom filter and scalable-s. More info about the tool can be found [here](https://sourmash.readthedocs.io). Sourmash can be [conda installed](https://anaconda.org/bioconda/sourmash). Note that if you already have bbtools, there are similar tools (sketchmaker, comparesketch, sendsketch). The most recent release of sourmash is only compatible with python up through version 3.7, so be sure to set your conda environment python to no higher than 3.7. If your existing environment has a higher version of python, this can be changed by
-`conda activate my_env
+`conda activate my_env\n
 conda install python=3.7`
