@@ -13,4 +13,4 @@ Metagenomes from the Tara Oceans Project
 
 Can be found at https://www.ebi.ac.uk/ena/browser/view/PRJEB1787?show=reads
 
-In example code, I have used the first 5 pairs of read Generated FASTQ files
+In example code, I have used teh 4th-8th listed pairs of Generated FASTQ files
