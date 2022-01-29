@@ -49,4 +49,4 @@ Note that `bbtools` has a similar tool, `bbsketch`
 
 ## bbmap
 
-part of the bbtools package (See information above in the **clean-up and taxnonomic classification** section)
+part of the bbtools package (See information above in the **clean-up and taxnonomic classification** section). Note that if you are working with eukaryotic genomes to appropriately increase the `maxindel` from the default (16000)
