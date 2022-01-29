@@ -19,6 +19,7 @@ The default location for storing the taxonomic databases is `../myenv/opt/krona/
 bbtools can be [conda installed](https://anaconda.org/agbiome/bbtools) on Linux or [Homebrew installed](https://formulae.brew.sh/formula/bbtools)
 on Mac OS X
 
+An important note on memory usage with bbtools! Typically, bbtools will only be able to use a maximum to use 85% of your machine's memory. Memory usage can be specified in bbtools commands with the -`Xmx` flag. For example, `-Xmx800m` specifies 800 megbytes of memory.
 ## Kraken2
 
 [Kraken2](github.com/DerrickWood/kraken2/archive/v2.0.9-beta.tar.gz) can be installed from tarball
