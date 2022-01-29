@@ -12,9 +12,9 @@ Once Krona is conda installed, manually update the taxonomy databases before Kro
 
 The default location for storing the taxonomic databases is `../myenv/opt/krona/taxonomy`
 
-## bbtools
+## bbduk
 
-[bbtools](https://jgi.doe.gov/data-and-tools/bbtools/) is a package created and maintained by the Joint Genome Institute that consistents of tools for trimming, MinHash, and much more!
+bbduk is part of the [bbtools](https://jgi.doe.gov/data-and-tools/bbtools/) package created and maintained by the Joint Genome Institute that consistents of tools for trimming, MinHash, and much more!
 
 bbtools can be [conda installed](https://anaconda.org/agbiome/bbtools) on Linux or [Homebrew installed](https://formulae.brew.sh/formula/bbtools)
 on Mac OS X
@@ -42,3 +42,11 @@ Before running `./install_kraken2.sh ./` , you will need to install a different 
 Implements bloom filter and scalable-s. More info about the tool can be found [here](https://sourmash.readthedocs.io). Sourmash can be [conda installed](https://anaconda.org/bioconda/sourmash). Note that if you already have bbtools, there are similar tools (sketchmaker, comparesketch, sendsketch). The most recent release of sourmash is only compatible with python up through version 3.7, so be sure to set your conda environment python to no higher than 3.7. If your existing environment has a higher version of python, this can be changed by
 `conda activate my_env`
 `conda install python=3.7`
+
+Note that `bbtools` has a similar tool, `bbsketch` 
+
+# Mapping
+
+## bbmap
+
+part of the bbtools package (See information above in the **clean-up and taxnonomic classification** section)
