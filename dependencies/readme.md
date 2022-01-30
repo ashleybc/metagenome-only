@@ -60,4 +60,4 @@ part of the bbtools package (See information above in the **clean-up and taxnono
 
 ## samtools
 
-Samtools can be [conda installed](https://anaconda.org/bioconda/samtools). Sam tools has a variety of useful functions for viewing, indexing, sorting, and compressing sam mapping files.
+Samtools can be [conda installed](https://anaconda.org/bioconda/samtools). Sam tools has a variety of useful functions for viewing, indexing, sorting, and compressing sam and bam mapping files.
