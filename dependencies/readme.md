@@ -34,6 +34,11 @@ Once installation is complete and export PATH is set, the database the user inte
 
 Before running `./install_kraken2.sh ./` , you will need to install a different compiler, or running the installation script will result in a clang error, as  Apple Clang does not support OpenMP by default. This can be done by first running `brew install gcc` to install a GNU compiler. Then, move into the `src` folder of the kraken directory, and enter `vim Makefile` to edit the Makefile.  Modify `g++` to `g++-11`
 
+## Phyloflash
+
+The Phyloflash tool is a convenient and quick way to estimate the 16S rRNA composition of metagenomes and predict the relative abundances of taxa. 
+Phyloflash can be [conda installed](https://anaconda.org/bioconda/phyloflash)
+
 ## trimmomatic
 
 [trimmomatic](https://anaconda.org/bioconda/trimmomatic) can be conda installed on all OS. For usage instructions, see the [online manual](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf). This tool is more suitable than bbduk if, for example, you want to trim to an exact length or using a sliding window based on Fast or Multi QC data and therefore require more control over the trimming. This can be used instead of bbduk in the example workflow, followed by Kraken2 classification and Krona visualization.
