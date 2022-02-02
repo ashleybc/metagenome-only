@@ -60,4 +60,8 @@ part of the bbtools package (See information above in the **clean-up and taxnono
 
 ## samtools
 
-Samtools can be [conda installed](https://anaconda.org/bioconda/samtools). Sam tools has a variety of useful functions for viewing, indexing, sorting, and compressing sam and bam mapping files.
+Samtools can be [conda installed](https://anaconda.org/bioconda/samtools). Sam tools has a variety of useful functions for viewing, indexing, sorting, and compressing sam and bam mapping files. Be aware that there are a few bugs, which are well-documented ([here is a pretty thorough summary](https://programmerah.com/samtools-run-error-error-while-loading-shared-libraries-libcrypto-so-1-0-0-or-libncurses-so-5-or-libtinfow-so-5-28066/)). I have determined a work-around specific to **Mac OS X** (described below).
+
+### Mac OS X work-around
+
+In the terminal, first navigate to the `lib` subfolder of the conda environment. First determine the version of libcrpyto that you have by ` ./ -name "libcrypto*"` . Once you determine this, change to the version that is used by samtools by `ln -s libcrypto.yourversion.dylib libcrypto.1.0.0.dylib` . Note that `dylib` is specific to Mac OS X. If using Linux, see the linked page for that version.
