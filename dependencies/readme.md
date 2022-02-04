@@ -70,4 +70,4 @@ In the terminal, first navigate to the `lib` subfolder of the conda environment.
 
 ## SPAdes (St. Petersburg genome assembler)
 
-SPAdes can be [conda installed](https://anaconda.org/bioconda/spades). Note that on Mac OS X, conda installed SPAdes may be slower than the tarball installation due to unavailability of parallel libstdc++ for the Clang compiler used by bioconda on MacOS
+SPAdes can be [conda installed](https://anaconda.org/bioconda/spades). Note that on Mac OS X, conda installed SPAdes may be slower than the tarball installation due to unavailability of parallel libstdc++ for the Clang compiler used by bioconda on MacOS. More information about this issue can be found [on GitHub](https://github.com/ablab/spades/issues/194#issuecomment-523175204)
