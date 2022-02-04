@@ -65,3 +65,9 @@ Samtools can be [conda installed](https://anaconda.org/bioconda/samtools). Sam t
 ### Mac OS X work-around
 
 In the terminal, first navigate to the `lib` subfolder of the conda environment. First determine the version of libcrpyto that you have by ` ./ -name "libcrypto*"` . Once you determine this, change to the version that is used by samtools by `ln -s libcrypto.yourversion.dylib libcrypto.1.0.0.dylib` . Note that `dylib` is specific to Mac OS X. If using Linux, see the linked page for that version.
+
+# Assembly
+
+## SPAdes (St. Petersburg genome assembler)
+
+SPAdes can be [conda installed](https://anaconda.org/bioconda/spades). Note that on Mac OS X, conda installed SPAdes may be slower than the tarball installation due to unavailability of parallel libstdc++ for the Clang compiler used by bioconda on MacOS
